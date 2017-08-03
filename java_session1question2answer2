@@ -1,0 +1,29 @@
+
+import java.io.*;
+
+class Expression 
+{
+ public static void main(String[] args) 
+ {
+ int a=20, b=10;
+    
+     b=a-- - --a;
+	 
+     System.out.println("The value of the above expression b="+b);
+     
+     int c=a--;
+	 
+     System.out.println("The value of above expression c="+c);
+     
+     int d=a>>2;
+	 
+     System.out.println("The value of above expression d="+d);
+     
+     
+     int e=a&b;
+	 
+     System.out.println("The value of above expression e="+e);
+
+
+}
+}
